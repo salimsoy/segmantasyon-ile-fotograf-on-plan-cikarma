@@ -215,7 +215,7 @@ class NegativeMask:
         cv2.destroyAllWindows()  # Pencereleri kapat
 
 ```
-### `negative_mask.py`
+### `main.py`
 - RioCreator ile seçilen alan üzerinden cv2.grabCut() algoritmasını çalıştırarak nesne segmentasyonu yapar.
 - Kullanıcı `a` tuşuna bastığında, PozitiveMask ve NegativeMask ile ön ve arka plan düzeltmesi yapılmasını sağlar.
 - Güncellenmiş maskeye göre segmentasyonu iyileştirir ve sonucu gerçek zamanlı olarak gösterir.
